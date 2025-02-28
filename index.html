@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eren Kayalar - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-overlay"></div>
+    
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">EK</div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="theme-toggle">
+                <span class="theme-icon"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="glitch-text" data-text="Software Engineer">Software Engineer</h1>
+                    <p class="typing-text">Building digital solutions with clean code</p>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-item">JavaScript</span>
+                    <span class="tech-item">React</span>
+                    <span class="tech-item">Node.js</span>
+                    <span class="tech-item">Python</span>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <pre class="code-content">
+<code>class Developer {
+    constructor() {
+        this.name = "Eren";
+        this.role = "Software Engineer";
+        this.languages = ["JS", "Python", "Java"];
+    }
+}</code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="folder-icon"></div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">GitHub</a>
+                            <a href="#" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                    <h3>AI Chat Application</h3>
+                    <p>Real-time chat application with AI integration using Node.js and OpenAI API</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Socket.io</span>
+                        <span>OpenAI</span>
+                    </div>
+                </article>
+                <!-- More project cards... -->
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <!-- More skills... -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="mailto:eren.kayalar@my-aolcc.com" class="contact-email">
+                        eren.kayalar@my-aolcc.com
+                    </a>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <div class="btn-line"></div>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Eren Kayalar. Built with clean code and coffee.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
